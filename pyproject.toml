@@ -1,0 +1,14 @@
+[project]
+name = "serverless-telegram-bot"
+version = "0.1.0"
+description = "Serverless (AWS Lambda) Telegram Bot Backend"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aws-cdk-lib>=2.200.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.13",
+]
